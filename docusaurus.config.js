@@ -93,7 +93,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Installion', position: 'left'},
+          // {to: '/blo', label: 'Installion', position: 'left'},
           {
             href: 'https://github.com/VSAY-GROUP/Documentation/',
             label: 'GitHub',
@@ -133,18 +133,18 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/VSAY-GROUP/Documentation/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} VSAY Group.`,
       },
       prism: {
         theme: prismThemes.github,
